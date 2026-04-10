@@ -1,0 +1,48 @@
+[window]
+opacity = 0.71 
+blur = true
+
+[colors]
+primary.background = "#110314"
+
+[font.normal]
+family = "CaskaydiaCove NFM" # Linux/BSD
+# family = "Consolas" # Windows
+# family = "Menlo" # macOS
+style = "Regular"
+
+# If the family is not specified, it will fall back to the value specified for the normal font.
+#
+# Default: { style = "Bold" }
+#
+# Schema: `{ family = "<string>", style = "<string>" }`
+
+[font.bold]
+style = "Bold"
+
+# If the family is not specified, it will fall back to the value specified for the normal font.
+#
+# Default: { style = "Italic" }
+#
+# Schema: `{ family = "<string>", style = "<string>" }`
+
+[font.italic]
+style = "Italic"
+
+# If the family is not specified, it will fall back to the value specified for the normal font.
+#
+# Default: { style = "Bold Italic" }
+#
+# Schema: `{ family = "<string>", style = "<string>" }`
+
+[font.bold_italic]
+style = "Bold Italic"
+
+# Font size in points.
+#
+# Default: 11.25
+#
+# Schema: `<float>`
+
+[font]
+size = 10
