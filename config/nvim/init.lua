@@ -21,7 +21,10 @@ vim.pack.add({
   { src = 'https://github.com/nvim-tree/nvim-tree.lua' },
   { src = 'https://github.com/saghen/blink.lib' },
   { src = 'https://github.com/saghen/blink.cmp' },
-  { src = 'https://github.com/lervag/vimtex' }
+  { src = 'https://github.com/lervag/vimtex' },
+  { src = 'https://github.com/tpope/vim-commentary.git' },
+  { src = 'https://github.com/nvim-telescope/telescope.nvim.git' },
+  { src = 'https://github.com/nvim-lua/plenary.nvim.git' }
 })
 
 local cmp = require('blink.cmp')
